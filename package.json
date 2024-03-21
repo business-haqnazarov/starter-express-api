@@ -1,22 +1,19 @@
 {
-  "name": "starter-express-api",
+  "name": "text-to-speech",
   "version": "1.0.0",
-  "description": "",
+  "description": "Text to Speech Api",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
-  "author": "",
+  "author": "HAQNAZAROV.UZ",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.19.1",
+    "node-gtts": "^2.0.2"
   }
 }
